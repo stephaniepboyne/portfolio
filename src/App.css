@@ -36,3 +36,108 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-image:url("./containers/murnau.jpg");
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.main {
+  height: 100px;
+  width: auto;
+  justify-content: center;
+  text-align: center;
+  top: 50%
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.name {
+  font-family: 'Roboto', sans-serif;
+  font-size: 4em;
+  font-weight: bolder;
+  font-stretch: expanded;
+  color: rgba(240, 248, 255, 0.906);
+  margin-top: 50px;
+  margin-bottom: -20px;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin-right: 36px;
+  margin-bottom: 50px;
+}
+
+.list > li > a {
+  flex-direction: row;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  font-stretch: expanded;
+  color: rgba(240, 248, 255, 0.945);
+  text-decoration: none;
+  font-size: 1.5em;
+  padding: 20px;
+  
+}
+
+.list > li > a:hover {
+  color: rgba(255, 197, 231, 0.807);
+}
+
+.desc {
+  font-family: 'Roboto', sans-serif;
+  color: rgba(240, 248, 255, 0.945);
+  margin-bottom: 40px;
+  font-weight:lighter;
+  font-size: 1.30em;
+}
+
+.container {
+  display:flex;
+  justify-content: center;
+}
+  
+
+.project-img {
+  height: 250px;
+  width: auto;
+  border-radius: 20px;
+  border-style:outset;
+  border-width: 2px;
+}
+
+.project {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  font-stretch: expanded;
+  color: rgba(240, 248, 255, 0.945);
+  width:400px;
+  padding: 20px;
+  padding-top: 6px;
+  background-color: #282c3499;
+  border-radius: 20px;
+
+}
+
+.info {
+  text-align: left;
+  margin-left: 5px;
+  font-weight: lighter;
+}
+
+.gitrepo:hover {
+  color: rgba(255, 197, 242, 0.807);
+}
+
+.gitrepo {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  font-stretch: expanded;
+  color: rgba(240, 248, 255, 0.945);
+  text-decoration: none;
+}
