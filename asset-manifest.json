@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/%3Crepo-name%3E/static/css/main.66232023.css",
+    "main.js": "/%3Crepo-name%3E/static/js/main.567005c8.js",
+    "static/js/787.1ed0c42c.chunk.js": "/%3Crepo-name%3E/static/js/787.1ed0c42c.chunk.js",
+    "static/media/murnau.jpg": "/%3Crepo-name%3E/static/media/murnau.740143b4fd84539ae31c.jpg",
+    "static/media/project1.png": "/%3Crepo-name%3E/static/media/project1.8691bf7e9ec529ce83fc.png",
+    "index.html": "/%3Crepo-name%3E/index.html",
+    "main.66232023.css.map": "/%3Crepo-name%3E/static/css/main.66232023.css.map",
+    "main.567005c8.js.map": "/%3Crepo-name%3E/static/js/main.567005c8.js.map",
+    "787.1ed0c42c.chunk.js.map": "/%3Crepo-name%3E/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66232023.css",
+    "static/js/main.567005c8.js"
+  ]
+}
