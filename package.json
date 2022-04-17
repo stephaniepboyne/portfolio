@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": "https://<username>.github.io/<repo-name>",
+  "homepage": "https://stephaniepboyne.github.io/<repo-name>",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
