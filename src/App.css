@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #313947;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -40,9 +40,8 @@
 body {
   background-image:url("./containers/murnau.jpg");
   background-repeat: no-repeat;
-  object-fit: cover;
   background-position: center;
-  background-attachment: fixed;
+  background-attachment: fixed;  
 }
 
 .main {
@@ -89,6 +88,10 @@ body {
   color: rgba(255, 197, 231, 0.807);
 }
 
+.name:hover {
+  color: rgba(255, 197, 231, 0.807);
+}
+
 .desc {
   font-family: 'Roboto', sans-serif;
   color: rgba(240, 248, 255, 0.945);
@@ -119,9 +122,9 @@ body {
   width:400px;
   padding: 20px;
   padding-top: 6px;
-  background-color: #282c3499;
+  background-color: #27273595;
   border-radius: 20px;
-
+  margin: 30px;
 }
 
 .info {
@@ -140,4 +143,27 @@ body {
   font-stretch: expanded;
   color: rgba(240, 248, 255, 0.945);
   text-decoration: none;
+}
+
+.about-container {
+  display:flex;
+  justify-content: center;
+}
+
+.date {
+  font-size: small;
+}
+
+.landing-sentence {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  font-stretch: expanded;
+  color: rgba(240, 248, 255, 0.945);
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1.2em;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #27273595;
+  margin-top: 70px
 }
